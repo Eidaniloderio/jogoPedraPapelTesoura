@@ -80,3 +80,22 @@ button{
     font-weight: 900;
 
 }
+
+
+@media (max-width: 700px){
+    h1{
+        font-size: 30px;
+    }
+
+    .botao img, .jogadas img{
+        width: 50px;
+    }
+
+    .jogadas{
+        font-size: 18px;
+    }
+
+    .textos{
+        font-size: 20px;
+    }
+}
