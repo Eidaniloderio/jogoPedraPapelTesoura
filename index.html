@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra-pepel-tesoura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Pedra, papel, tesoura</h1>
+
+    <div class="botao">
+        <img src="images/Pedra.png"  onclick="playGame('Pedra')">
+        <img src="images/Papel.png" onclick="playGame('Papel')">
+        <img src="images/Tesoura.png" onclick="playGame('Tesoura')">
+    </div>
+
+
+    <div class="textos">
+
+        <p class="jogadas">Suas jogadas</p>
+        <br>
+        <p class="resultados">Resultado</p>
+        <br>
+        <P class="js-pontos">
+            <div class="botao"><button onclick="reset()" id="reset">Resetar pontos</button></div>
+        </P>
+        <br>    
+    </div>
+
+    
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
